@@ -25,7 +25,12 @@ width=int(input("Width of multiplication table: "))
 height=int(input("Height of multiplication table: "))
 #for x in range(0, height):
 
-for x in range(1, height+1):
-    for i in range(1, width+1):
-        print(i*x)
+for x in range(1,height+1):
+    for i in range(1,width+1):
+        print("{0:>3}".format(x*i)) 
     print("\n")
+
+#x=[]
+#for x in range(1,height+1):
+    #for i in range(1,width+1):
+        #x[i]=i*x
